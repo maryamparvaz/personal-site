@@ -1,5 +1,5 @@
 # personal-site
-- [Demo Project](https://maryamparvaz.github.io/To-Do-List-1/)
+- [Demo Project](https://maryamparvaz.github.io/personal-site/)
 
 - Developed by Maryam Parvaz 🙎
 
