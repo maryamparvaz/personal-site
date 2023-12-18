@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+        font-family: logo;
+        src: url(../font/Handlee-Regular.ttf);
+}
+
+@font-face {
+        font-family: page;
+        src: url(../font/Austin\ Italic.ttf);
+}
+
+@font-face {
+        font-family: page1;
+        src: url(../font/AustinModern.ttf);
+}
+
+@font-face {
+        font-family: page2;
+        src: url(../font/Austin-LightItalic-Web.woff2);
+}
+
+@keyframes logo1 {
+        50% {
+                top: -30px;
+        }
+}
+
+@keyframes ball1 {
+        30% {
+                transform: translate(60px, 160px);
+        }
+
+        60% {
+                transform: translate(60px, 170px);
+        }
+
+        60% {
+                transform: translate(50px, 170px);
+        }
+
+        100% {
+                transform: translate(50px, 150px);
+        }
+}
+
+@keyframes ball2 {
+        30% {
+                transform: translate(20px, 10px);
+        }
+
+        60% {
+                transform: translate(20px, 0px);
+        }
+
+        60% {
+                transform: translate(30px, 0px);
+        }
+
+        100% {
+                transform: translate(30px, 20px);
+        }
+}
+
+@keyframes ball3 {
+        30% {
+                transform: translate(60px, 200px);
+        }
+
+        60% {
+                transform: translate(60px, 210px);
+        }
+
+        60% {
+                transform: translate(70px, 210px);
+        }
+
+        100% {
+                transform: translate(70px, 190px);
+        }
+}
+
+@keyframes ball4 {
+        30% {
+                transform: translate(-70px, 10px);
+        }
+
+        60% {
+                transform: translate(-70px, 20px);
+        }
+
+        60% {
+                transform: translate(-80px, 20px);
+        }
+
+        100% {
+                transform: translate(-80px, 0px);
+        }
+}
+
+@keyframes arow {
+        50% {
+                transform: rotate(-90deg);
+        }
+}
+
+/* body {
+        background: linear-gradient(to right, rgb(210, 211, 195) 419px, #c4b8b8 1px);
+        background-size: 439px 100%;
+        background-color: #aa001c;
+} */
+#circle1 {
+        border-radius: 50% / 0 0 100% 100%;
+}
+
+#page2,
+#pagesix {
+        border-radius: 80% / 70% 70% 0 0;
+}
+
+#page21,
+box1,
+#page2,
+#portfolio>li>figure,
+#hov>a {
+        position: relative;
+        position: absolute;
+}
+
+/* #j {
+        display: none;
+} */
